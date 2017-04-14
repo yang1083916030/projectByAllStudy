@@ -1,0 +1,13 @@
+function windowResize2(){
+
+	var div1Height=$("#showProjectInfo").contents().find("#div1").height();
+
+	var div2Height=$("#showProjectInfo").contents().find("#div2").height();
+
+	var releaseFormHeight=$("#showProjectInfo").contents().find("#businessFormInfo").height();
+
+	var allHeight=releaseFormHeight+div2Height+div1Height;
+
+	    $('#showProjectInfo').css("height",allHeight+20);
+
+ }
